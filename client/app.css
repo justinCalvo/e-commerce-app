@@ -1,0 +1,18 @@
+.listings-container{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 2px;
+  margin-top: 50px;
+}
+
+ .listings-container > div{
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.sidebar{
+  grid-row: 1 / 5;
+}
